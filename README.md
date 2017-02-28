@@ -1,12 +1,15 @@
-# Elastic Dog Breeds
+# Elasticsearch Dog Breeds
 
-Builds a list of elastic dog breeds.
+Builds an elastic index of dog breeds.
 
 Data was sourced from [fci-breeds](https://github.com/paiv/fci-breeds).
 
+## Requirements
+You will need Docker version 1.13.1.
+
 ## Usage
 
-### Start Search
+### Start Elastic
 Start the elastic search service.
 
 `npm run elastic-up`
@@ -17,7 +20,7 @@ Start the elastic search service.
 ### Perform Queries
 `npm run query "I love golden retrievers"`
 
-### Stop servier
+### Stop Elasticsearch server
 `npm run elastic-down`
 
 The following blog post gives a detailed write-up.
