@@ -9,6 +9,11 @@ You will need Docker version 1.13.1.
 
 ## Usage
 
+### Install Dependencies
+Install node dependencies.
+
+`npm install`
+
 ### Start Elastic
 Start the elastic search service.
 
